@@ -1,0 +1,36 @@
+{
+  "name": "nova-chat",
+  "version": "1.14.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "publish": "todesktop .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToDesktop",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@sentry/electron": "^1.2.0",
+    "@todesktop/runtime": "0.0.3",
+    "analytics-node": "^3.4.0-beta.1",
+    "auto-launch": "^5.0.5",
+    "electron-context-menu": "^0.15.2",
+    "electron-dl": "^1.14.0",
+    "electron-log": "^4.0.3",
+    "electron-positioner": "^4.1.0",
+    "electron-store": "^5.1.0",
+    "electron-updater": "^4.2.0",
+    "electron-window-state": "^5.0.2",
+    "file-url": "^3.0.0",
+    "lodash": "^4.17.15",
+    "menubar": "^7.2.0",
+    "node-machine-id": "^1.1.12",
+    "url-join": "^4.0.1",
+    "wurl": "^2.5.3"
+  },
+  "devDependencies": {
+    "@todesktop/cli": "^0.1.5",
+    "electron": "^7.1.8"
+  }
+}
